@@ -1,0 +1,173 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>test.hibernate</groupId>
+  <artifactId>SuperHotelPC</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Super Hotel PC</name>
+
+ <dependencies>
+	<dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-core</artifactId>
+		<version>5.3.1.Final</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-entitymanager</artifactId>
+		<version>5.3.1.Final</version>
+	</dependency>
+
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>8.0.22</version>
+	</dependency>
+
+	<dependency>
+		<groupId>jakarta.xml.bind</groupId>
+		<artifactId>jakarta.xml.bind-api</artifactId>
+		<version>2.3.2</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.glassfish.jaxb</groupId>
+		<artifactId>jaxb-runtime</artifactId>
+		<version>2.3.2</version>
+	</dependency>
+
+	 <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>kernel</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>io</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>layout</artifactId>         
+         <version>7.0.2</version>
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>forms</artifactId>         
+         <version>7.0.2</version>    
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>pdfa</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>sign</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>barcodes</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>font-asian</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>hyph</artifactId>         
+         <version>7.0.2</version>    
+      </dependency>
+
+	  <dependency>
+		 <groupId>org.junit.platform</groupId>
+		 <artifactId>junit-platform-commons</artifactId>         
+         	 <version>1.8.2</version>
+	  </dependency>
+
+          <dependency>
+		 <groupId>org.junit.platform</groupId>
+		 <artifactId>junit-platform-console</artifactId>         
+                 <version>1.8.2</version>
+	  </dependency>
+ 
+	  <dependency>
+		 <groupId>org.junit.platform</groupId>
+		 <artifactId>junit-platform-console-standalone</artifactId>         
+                 <version>1.8.2</version>
+	  </dependency>
+
+	  <dependency>
+		 <groupId>org.junit.platform</groupId>
+		 <artifactId>junit-platform-engine</artifactId>         
+                 <version>1.8.2</version>
+	  </dependency>
+
+          <dependency>
+		 <groupId>org.junit.platform</groupId>
+		 <artifactId>junit-platform-jfr</artifactId>         
+                 <version>1.8.2</version>
+	  </dependency>
+
+          <dependency>
+		 <groupId>org.junit.platform</groupId>
+		 <artifactId>junit-platform-launcher</artifactId>         
+                 <version>1.8.2</version>
+	  </dependency>
+
+          <dependency>
+		 <groupId>org.junit.platform</groupId>
+		 <artifactId>junit-platform-reporting</artifactId>         
+                 <version>1.8.2</version>
+	  </dependency>
+
+          <dependency>
+		 <groupId>org.junit.platform</groupId>
+		 <artifactId>junit-platform-runner</artifactId>         
+                 <version>1.8.2</version>
+	  </dependency>
+
+          <dependency>
+		 <groupId>org.junit.platform</groupId>
+		 <artifactId>junit-platform-suite</artifactId>         
+                 <version>1.8.2</version>
+	  </dependency>
+
+          <dependency>
+		 <groupId>org.junit.platform</groupId>
+		 <artifactId>junit-platform-suite-api</artifactId>         
+                 <version>1.8.2</version>
+	  </dependency>
+
+          <dependency>
+		 <groupId>org.junit.platform</groupId>
+		 <artifactId>junit-platform-suite-commons</artifactId>         
+                 <version>1.8.2</version>
+	  </dependency>
+
+          <dependency>
+		 <groupId>org.junit.platform</groupId>
+		 <artifactId>junit-platform-suite-engine</artifactId>         
+                 <version>1.8.2</version>
+	  </dependency>
+
+          <dependency>
+		 <groupId>org.junit.platform</groupId>
+		 <artifactId>junit-platform-testkit</artifactId>         
+                 <version>1.8.2</version>
+	  </dependency>
+
+  </dependencies>
+
+</project>

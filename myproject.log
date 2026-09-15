@@ -1,0 +1,22 @@
+20:21:54,251  INFO main LogHelper:logPersistenceUnitInformation:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: test_persistence
+	...]
+20:21:54,317  INFO main Version:logVersion:46 - HHH000412: Hibernate Core {5.3.1.Final}
+20:21:54,319  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+20:21:54,407  INFO main Version:<clinit>:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+20:21:54,613  WARN main pooling:configure:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:21:54,622  INFO main pooling:buildCreator:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/super_hotel?useUnicode=true&serverTimezone=UTC]
+20:21:54,627  INFO main pooling:buildCreator:138 - HHH10001001: Connection properties: {password=****, user=root}
+20:21:54,627  INFO main pooling:buildCreator:143 - HHH10001003: Autocommit mode: false
+20:21:54,630  INFO main DriverManagerConnectionProviderImpl:<init>:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+20:21:54,967  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+20:21:55,979  INFO main QueryTranslatorFactoryInitiator:initiateService:47 - HHH000397: Using ASTQueryTranslatorFactory
+20:22:01,884  INFO AWT-EventQueue-0 PriceList:actionPerformed:104 - Отображение полученных из базы данных в таблице
+20:22:02,845  INFO AWT-EventQueue-0 PriceList:editor:323 - Открытие экранной формы
+20:22:11,056  WARN AWT-EventQueue-0 PriceList:actionPerformed:280 - Возможно возникновение исключительной ситуации
+20:22:11,056  INFO AWT-EventQueue-0 PriceList:actionPerformed:281 - Проверка на успешный ввод новой стоимости
+20:22:11,059  INFO AWT-EventQueue-0 PriceList:actionPerformed:313 - Стоимость успешно изменена
+20:22:13,156  INFO AWT-EventQueue-0 PriceList:actionPerformed:104 - Отображение полученных из базы данных в таблице
+20:22:14,120  INFO AWT-EventQueue-0 PriceList:actionPerformed:140 - Попытка генерации отчёта
+20:22:14,266  INFO AWT-EventQueue-0 PriceList:actionPerformed:143 - Отчёт сгенерирован
+20:22:18,203  INFO AWT-EventQueue-0 pooling:stop:233 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/super_hotel?useUnicode=true&serverTimezone=UTC]
